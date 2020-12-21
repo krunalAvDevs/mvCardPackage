@@ -22,6 +22,8 @@
 
 /* Begin PBXBuildFile section */
 		184DF555259082FA00F86D45 /* globalFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184DF554259082FA00F86D45 /* globalFunction.swift */; };
+		188047942590B94000ECCFA4 /* demoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188047922590B94000ECCFA4 /* demoViewController.swift */; };
+		1880479E2590BA0300ECCFA4 /* loginDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1880479D2590BA0300ECCFA4 /* loginDataViewController.swift */; };
 		OBJ_25 /* mvCardPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* mvCardPackage.swift */; };
 		OBJ_32 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_43 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* XCTestManifests.swift */; };
@@ -48,6 +50,10 @@
 
 /* Begin PBXFileReference section */
 		184DF554259082FA00F86D45 /* globalFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = globalFunction.swift; sourceTree = "<group>"; };
+		188047912590B91300ECCFA4 /* demoStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = demoStoryboard.storyboard; sourceTree = "<group>"; };
+		188047922590B94000ECCFA4 /* demoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoViewController.swift; sourceTree = "<group>"; };
+		188047932590B94000ECCFA4 /* demoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = demoViewController.xib; sourceTree = "<group>"; };
+		1880479D2590BA0300ECCFA4 /* loginDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginDataViewController.swift; sourceTree = "<group>"; };
 		OBJ_12 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
 		OBJ_13 /* mvCardPackageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mvCardPackageTests.swift; sourceTree = "<group>"; };
 		OBJ_17 /* mvCardPackageTests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = mvCardPackageTests; sourceTree = SOURCE_ROOT; };
@@ -105,7 +111,7 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -116,7 +122,6 @@
 				OBJ_18 /* mvCardPackage */,
 				OBJ_19 /* README.md */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -132,6 +137,10 @@
 			children = (
 				184DF554259082FA00F86D45 /* globalFunction.swift */,
 				OBJ_9 /* mvCardPackage.swift */,
+				188047912590B91300ECCFA4 /* demoStoryboard.storyboard */,
+				188047922590B94000ECCFA4 /* demoViewController.swift */,
+				188047932590B94000ECCFA4 /* demoViewController.xib */,
+				1880479D2590BA0300ECCFA4 /* loginDataViewController.swift */,
 			);
 			name = mvCardPackage;
 			path = Sources/mvCardPackage;
@@ -203,7 +212,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_14 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -223,6 +232,8 @@
 			files = (
 				184DF555259082FA00F86D45 /* globalFunction.swift in Sources */,
 				OBJ_25 /* mvCardPackage.swift in Sources */,
+				1880479E2590BA0300ECCFA4 /* loginDataViewController.swift in Sources */,
+				188047942590B94000ECCFA4 /* demoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
