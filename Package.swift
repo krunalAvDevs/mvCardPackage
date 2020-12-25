@@ -23,7 +23,7 @@ let package = Package(
             excludes: [
                 "demoStoryboard.storyboard",
                 "demoViewController.swift",
-                "demoViewController.xib"
+                "demoViewController.xib",
                 "loginDataViewController.swift"],
             dependencies: []),
         .testTarget(
